@@ -12,12 +12,12 @@ class CiblesManager
     {
         $dbName = "studikgb";
         $port = 3306;
-        $username = "root";
-        $password = "";
+        $username = "b13bd16b4d5f04";
+        $password = "31e75708";
 
         // On utilise un try/catch pour tester la connection
         try {
-            $this->db = new PDO("mysql:host=localhost;dbname=$dbName;port=$port", $username, $password);
+            $this->db = new PDO("mysql:host=heroku_298e4adb9d2b508;dbname=$dbName;port=$port", $username, $password);
         } catch (PDOException $e) {
             echo $e->getMessage();
         }

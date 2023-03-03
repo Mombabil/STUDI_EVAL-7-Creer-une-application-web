@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #999595;
+}
+
+main {
+  display: flex;
+}
+
+main .category {
+  width: 75%;
+  background-color: #999595;
+}
+
+main .category h1, main .category h5 {
+  padding: 4px 6px;
+  font-size: 1.5rem;
+}
+
+main .category h5 {
+  font-size: 1.1rem;
+}
+
+main .category .line-form {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 6px;
+  color: #2c2c2c;
+}
+
+main .category .line-form label {
+  width: 25%;
+}
+
+main .category .line-form input, main .category .line-form select, main .category .line-form textarea {
+  width: 75%;
+  border: none;
+  background-color: #a5a1a1;
+  border-radius: 5px;
+}
+
+main .category .line-form input:focus, main .category .line-form select:focus, main .category .line-form textarea:focus {
+  background-color: white;
+}
+
+main .category .line-form:nth-child(1), main .category .line-form:nth-child(3), main .category .line-form:nth-child(5) {
+  background-color: #acb3bb;
+}
+
+main .category .line-form:nth-child(1) input, main .category .line-form:nth-child(1) select, main .category .line-form:nth-child(3) input, main .category .line-form:nth-child(3) select, main .category .line-form:nth-child(5) input, main .category .line-form:nth-child(5) select {
+  background-color: #b6bec7;
+}
+
+main .category .line-form:nth-child(1) input:focus, main .category .line-form:nth-child(1) select:focus, main .category .line-form:nth-child(3) input:focus, main .category .line-form:nth-child(3) select:focus, main .category .line-form:nth-child(5) input:focus, main .category .line-form:nth-child(5) select:focus {
+  background-color: white;
+}
+
+main .category .regleMetier {
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: green;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 12px;
+}
+
+main .category .submit {
+  float: right;
+  margin-top: 2px;
+  padding: 4px 6px;
+  margin-right: 6px;
+}
+
+main .category .cible, main .category .contact, main .category .planque, main .category .mission {
+  margin-top: 36px;
+}
+
+main .listingMissions {
+  width: 25%;
+  background-color: #999595;
+  padding: 24px 36px;
+}
+
+main .listingMissions ul {
+  list-style-type: square;
+}
+
+.missionsDisplay {
+  padding-top: 48px;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.missionsDisplay thead {
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=index.css.map */

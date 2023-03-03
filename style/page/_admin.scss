@@ -1,0 +1,67 @@
+main{
+    display: flex;
+    .category{
+        width: 75%;
+        background-color: rgb(153, 149, 149);
+        h1, h5{
+            padding: 4px 6px;
+            font-size: 1.5rem;
+        }
+        h5{
+            font-size: 1.1rem;
+        }
+        
+        .line-form{
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 6px;
+            color: rgb(44, 44, 44);
+            label{
+                width: 25%;
+            }
+            input, select, textarea{
+                width: 75%;
+                border: none;
+                background-color: rgb(165, 161, 161);
+                border-radius: 5px;
+                &:focus{
+                    background-color: white;
+                }
+            }
+            &:nth-child(1), &:nth-child(3), &:nth-child(5){
+                background-color: rgb(172, 179, 187);
+                input, select{
+                    background-color: rgb(182, 190, 199);
+                    &:focus{
+                        background-color: white;
+                    }
+                }
+            }
+        }
+        .regleMetier{
+            font-size: 0.6rem;
+            font-weight: 800;
+            color: green;
+            display: flex;
+            justify-content: flex-end;
+            padding: 0 12px;
+        }
+        .submit{
+            float: right;
+            margin-top: 2px;
+            padding: 4px 6px;
+            margin-right: 6px;
+        }
+        .cible, .contact, .planque, .mission{
+            margin-top: 36px;
+        }
+    }
+    .listingMissions{
+        width: 25%;
+        background-color: rgb(153, 149, 149);
+        padding: 24px 36px;
+        ul{
+            list-style-type: square;
+        }
+    }
+}

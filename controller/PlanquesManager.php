@@ -17,7 +17,7 @@ class PlanquesManager
 
         // On utilise un try/catch pour tester la connection
         try {
-            $this->db = new PDO("mysql:host=cleardb-closed-19166;dbname=$dbName;port=$port", $username, $password);
+            $this->db = new PDO("mysql:host=eu-ms-auto-fra-03-c.cleardb.net;dbname=$dbName;port=$port", $username, $password);
         } catch (PDOException $e) {
             echo $e->getMessage();
         }

@@ -88,7 +88,7 @@ try {
                                     <div style="display: block">
                                         <p style="color:white">Bienvenue <?= $admin->getFirstname() . " " . $admin->getName() ?></p>
                                         <div>
-                                            <button><a href="http://localhost/eval-php/bdd-kgb/admin.php">Admin</a></button>
+                                            <button><a href="./admin.php">Admin</a></button>
                                         </div>
                                     </div>
                                 <?php

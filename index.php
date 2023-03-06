@@ -75,7 +75,7 @@ $planquesManager = new PlanquesManager();
                             <div style="display: block">
                                 <p style="color:white">Bienvenue <?= $admin->getFirstname() . " " . $admin->getName() ?></p>
                                 <div>
-                                    <button><a href="http://localhost/eval-php/bdd-kgb/admin.php" class="nav-link">Admin</a></button>
+                                    <button><a href="./admin.php" class="nav-link">Admin</a></button>
                                 </div>
                             </div>
                         <?php

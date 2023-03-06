@@ -1490,7 +1490,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             $startMission = htmlspecialchars($_POST['startMission']);
                             $endMission = htmlspecialchars($_POST['endMission']);
                         ?>
-                            <form method="post" action="adminCreateAgentForMission.php#validatedAgentsMission">
+                            <form method="post" action="./adminCreateAgentForMission.php#validatedAgentsMission">
                                 <div class="line-form">
                                     <label for="titleMission" class="form-label">Titre de la mission</label>
                                     <input type="text" name="titleMission" id="titleMission" placeholder="Ex: Sabotage des élections" value="<?= $titleMission ?>" />

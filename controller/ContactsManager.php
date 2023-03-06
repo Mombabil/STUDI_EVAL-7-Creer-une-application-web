@@ -10,7 +10,7 @@ class ContactsManager
     // On crée un constructeur sans parametres qui gerera la connection a la bdd et a la table contact
     public function __construct()
     {
-        $dbName = "studikgb";
+        $dbName = "perret-morgan_evaluation-studi-creer-une-application-web";
         $port = 3306;
         $username = "302852_";
         $password = "3FPgmA3i2T!aFAK";

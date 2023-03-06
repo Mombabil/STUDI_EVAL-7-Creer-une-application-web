@@ -277,7 +277,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ]);
 
         $missionsManager->create($newMission);
-        header("Location: http://localhost/eval-php/bdd-kgb/admin.php");
+        header("Location: https://evaluation-6-studi-php.herokuapp.com/admin.php");
     }
 }
 ?>

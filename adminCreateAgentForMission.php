@@ -95,7 +95,7 @@ $admin = $adminsManager->get(1);
 
                 var_dump($planqueMission);
                 ?>
-                <form method="post" action="https://evaluation-6-studi-php.herokuapp.com/admin.php">
+                <form method="post" action="./admin.php">
 
                     <div class="line-form">
                         <label for="validatedTitleMission" class="form-label">Titre de la mission</label>

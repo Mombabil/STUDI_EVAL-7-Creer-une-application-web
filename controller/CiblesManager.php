@@ -7,17 +7,17 @@ class CiblesManager
 {
     private $db;
 
-    // On crée un constructeur sans parametres qui gerera la connection a la bdd et a la table cible
+    // On crée un constructeur sans parametres qui gerera la connection a la bdd et a la table contact
     public function __construct()
     {
         $dbName = "studikgb";
         $port = 3306;
-        $username = "b13bd16b4d5f04";
-        $password = "31e75708";
+        $username = "302852_";
+        $password = "3FPgmA3i2T!aFAK";
 
         // On utilise un try/catch pour tester la connection
         try {
-            $this->db = new PDO("mysql:host=eu-ms-auto-fra-03-c.cleardb.net;dbname=$dbName;port=$port", $username, $password);
+            $this->db = new PDO("mysql:host=mysql-perret-morgan.alwaysdata.net;dbname=$dbName;port=$port", $username, $password);
         } catch (PDOException $e) {
             echo $e->getMessage();
         }
